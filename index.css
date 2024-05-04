@@ -6,8 +6,6 @@
 body {
     background-color: black;
     color: white;
-    overflow-x: hidden;
-    overflow: hidden;
     margin: 0;
     padding: 0;
     font-family: "VCR OSD Mono";
@@ -42,6 +40,20 @@ h4 {
     -ms-interpolation-mode: nearest-neighbor;
     width: 300px;
     height: 243px;
+}
+
+#about {
+    display: none;
+}
+
+.topgif {
+    width: 200px;
+}
+
+p {
+    text-align: left;
+    font-size: smaller;
+    width: 300px;
 }
 
 .socials {
