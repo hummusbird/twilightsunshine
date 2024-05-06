@@ -44,15 +44,7 @@ h2 {
 }
 
 #main {
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-}
-
-#about {
-    opacity: 0%;
-    animation-name: fadein;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
+    height: 600px;
 }
 
 #aboutbutton img {
@@ -82,26 +74,5 @@ p {
 }
 
 .socials:hover {
-
     background-color: #4caaab;
-}
-
-@keyframes fadeout {
-    0% {
-        opacity: 100%;
-    }
-
-    100% {
-        opacity: 0%;
-    }
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0%;
-    }
-
-    100% {
-        opacity: 100%;
-    }
 }
