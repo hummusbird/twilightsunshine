@@ -83,3 +83,31 @@ p {
 .socials:hover {
     background-color: #4caaab;
 }
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 50px;
+}
+
+.items .video {
+    background-color: #000000AA;
+    width: 100%;
+    border: none;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.items .image {
+    background-color: #000000AA;
+    width: 100%;
+    border: none;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    transition: 0.15s;
+}
