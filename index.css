@@ -47,8 +47,9 @@ h2 {
     height: 324px;
 }
 
-#main {
-    height: 600px;
+.main {
+    min-height: 600px;
+    max-height: 100%;
 }
 
 #aboutbutton img {
@@ -82,6 +83,10 @@ p {
 
 .socials:hover {
     background-color: #4caaab;
+}
+
+.black {
+    background-color: black;
 }
 
 .items {
